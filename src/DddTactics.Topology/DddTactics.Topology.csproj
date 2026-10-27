@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>DddTactics.Topology</PackageId>
+    <Description>拓扑元数据运行时：消费源生成器产物，生成 Mermaid（ELK/Dagre）、文本树与孤儿事件告警。仅依赖 Core。</Description>
+    <RootNamespace>DddTactics.Topology</RootNamespace>
+    <AssemblyName>DddTactics.Topology</AssemblyName>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DddTactics.Core\DddTactics.Core.csproj" />
+    <!-- 源生成器以分析器方式接入（不产生程序集引用） -->
+    <ProjectReference Include="..\DddTactics.Topology.Generator\DddTactics.Topology.Generator.csproj"
+                      OutputItemType="Analyzer"
+                      ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+</Project>

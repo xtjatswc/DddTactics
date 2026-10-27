@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>DddTactics.AppServices</PackageId>
+    <Description>应用层验证管道：AppService 基类 + 原生 / MediatR / Wolverine 三套可替换验证管道（FluentValidation 适配）。</Description>
+    <RootNamespace>DddTactics.AppServices</RootNamespace>
+    <AssemblyName>DddTactics.AppServices</AssemblyName>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DddTactics.Core\DddTactics.Core.csproj" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="WolverineFx" Version="6.55.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>

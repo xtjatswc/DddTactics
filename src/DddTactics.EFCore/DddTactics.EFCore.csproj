@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>DddTactics.EFCore</PackageId>
+    <Description>EF Core 10 集成：SaveChanges 拦截器（同步+异步）、按事件类型独立配置的 BeforeSave/AfterSave 分发器、RepositoryBase、最小规格模式。</Description>
+    <RootNamespace>DddTactics.EFCore</RootNamespace>
+    <AssemblyName>DddTactics.EFCore</AssemblyName>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DddTactics.Core\DddTactics.Core.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>

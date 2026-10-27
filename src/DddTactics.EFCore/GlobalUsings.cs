@@ -1,0 +1,9 @@
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Diagnostics;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using Microsoft.Extensions.DependencyInjection;
+global using DddTactics.Core;
+global using System.Runtime.CompilerServices;
+global using System.Collections.Concurrent;
+global using System.Linq.Expressions;
+global using System.Reflection;

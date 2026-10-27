@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>DddTactics.Core</PackageId>
+    <Description>零依赖的 DDD 战术层核心：强类型 ID、Entity/AggregateRoot/ValueObject、领域事件与拓扑识别契约。</Description>
+    <RootNamespace>DddTactics.Core</RootNamespace>
+    <AssemblyName>DddTactics.Core</AssemblyName>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+</Project>
